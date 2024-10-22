@@ -1,0 +1,22 @@
+.active-users-card {
+    background-color: #1a1f37;
+    border-radius: 20px;
+    padding: 20px;
+  }
+  
+  .users-chart {
+    height: 200px;
+    background-color: #0075ff;
+    margin-bottom: 20px;
+    border-radius: 10px;
+  }
+  
+  .user-stats {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .user-stats div {
+    text-align: center;
+  }

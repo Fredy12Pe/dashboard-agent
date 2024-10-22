@@ -1,13 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
 body {
+  font-family: 'Rubik', sans-serif;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  padding: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.app-container {
+  display: flex;
+  min-height: 100vh;
+  background-image: url('./assets/Background.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.main-content {
+  flex: 1;
+  padding: 10px;
+}
+
+.left-navbar {
+  position: sticky;
+  top: 10px;
+  width: 264px; /* Increased to accommodate the nav items and margins */
+  height: calc(100vh - 20px);
+  background-color: rgba(15, 23, 42, 0.8);
+  backdrop-filter: blur(10px);
+  color: #ffffff;
+  padding: 0;
+  margin: 10px 0 10px 10px;
+  border-radius: 15px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo-group {
+  margin: 36px 0 30px 0;
+  text-align: center; /* Top, Right, Bottom, Left */
+  min-width: 220px;
+}
+
+.logo {
+  font-size: 14px;
+  font-weight: roman;
+  margin-bottom: 15px;
+}
+
+.logo-divider {
+  border: none;
+  height: 1px;
+  background-color: rgba(255, 255, 255, 0.1);
+  margin: 0 15px;
+}
+
+
+.nav-item {
+  display: flex;
+  align-items: center;
+  padding: 0 12px;
+  margin: 0 22px 10px 22px;
+  cursor: pointer;
+  border-radius: 15px;
+  transition: all 0.3s ease;
+  height: 54px;
+  width: 220px;
+}
+
+.nav-item.active {
+  background-color: #1A1F37;
+  box-shadow: 0px 3.5px 5.5px 0px rgba(0, 0, 0, 0.02);
+}
+
+.nav-item:hover {
+  background-color: rgba(26, 31, 55, 0.7);
+}
+
+.nav-icon-background {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 10px;
+  background-color: #1A1F37;
+  margin-right: 12px;
+  transition: background-color 0.3s ease;
+}
+
+
+.nav-item.active .nav-icon-background {
+  background-color: #0075FF;
+}
+
+.nav-icon {
+  font-size: 18px;
+  color: #ffffff;
+}
+
+.nav-text {
+  font-size: 14px;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+.section-title {
+  font-size: 12px;
+  text-transform: uppercase;
+  color: white;
+  margin: 20px 0 15px 37px; /* Align with the icons */
+  align-self: flex-start;
+  font-weight: normal;
+  letter-spacing: 0.5px;
 }

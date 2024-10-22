@@ -1,0 +1,23 @@
+.projects-card {
+    background-color: #1a1f37;
+    border-radius: 20px;
+    padding: 20px;
+  }
+  
+  .projects-table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: separate;
+    border-spacing: 0 10px;
+  }
+  
+  .projects-table th {
+    text-align: left;
+    color: #8f9bba;
+  }
+  
+  .progress-bar {
+    height: 8px;
+    background-color: #0075ff;
+    border-radius: 4px;
+  }

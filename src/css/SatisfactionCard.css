@@ -1,0 +1,24 @@
+.satisfaction-card {
+    background-color: #1a1f37;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .satisfaction-chart {
+    width: 150px;
+    height: 150px;
+    margin: 20px auto;
+    position: relative;
+    background-color: #0075ff;
+    border-radius: 50%;
+  }
+  
+  .satisfaction-percentage {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+    font-weight: bold;
+  }

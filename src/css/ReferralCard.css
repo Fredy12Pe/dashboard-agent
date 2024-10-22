@@ -1,0 +1,23 @@
+.referral-card {
+    background-color: #1a1f37;
+    border-radius: 20px;
+    padding: 20px;
+  }
+  
+  .referral-stats {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+  }
+  
+  .safety-score {
+    text-align: center;
+    background-color: #0075ff;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+  }

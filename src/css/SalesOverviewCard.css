@@ -1,0 +1,12 @@
+.sales-overview-card {
+    background-color: #1a1f37;
+    border-radius: 20px;
+    padding: 20px;
+  }
+  
+  .sales-chart {
+    height: 300px;
+    background-color: #0075ff;
+    margin-top: 20px;
+    border-radius: 10px;
+  }

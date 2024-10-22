@@ -1,0 +1,32 @@
+.orders-overview-card {
+    background-color: #1a1f37;
+    border-radius: 20px;
+    padding: 20px;
+  }
+  
+  .orders-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .orders-list li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .order-icon {
+    width: 10px;
+    height: 10px;
+    background-color: #0075ff;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .order-details p {
+    margin: 0;
+  }
+  
+  .order-details small {
+    color: #8f9bba;
+  }
