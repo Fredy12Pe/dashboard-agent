@@ -33,6 +33,7 @@ body {
   padding: 0;
   margin: 10px 0 10px 10px;
   border-radius: 15px;
+  overflow-x: hidden;
   overflow-y: auto;
   display: flex;
   flex-direction: column;
@@ -69,6 +70,9 @@ body {
   transition: all 0.3s ease;
   height: 54px;
   width: 220px;
+  white-space: nowrap; /* Prevent text wrapping */
+  overflow: hidden; /* Hide overflowing content */
+  text-overflow: ellipsis; /* Add ellipsis for overflowing text */
 }
 
 .nav-item.active {
