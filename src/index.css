@@ -11,7 +11,10 @@ body {
 .app-container {
   display: flex;
   min-height: 100vh;
-  background-color: #ffffff;
+  background-image: url('./assets/Background.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .main-content {
